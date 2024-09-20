@@ -84,3 +84,9 @@
 .cardsection--github-pages > *{
     margin:0;
 }
+
+@media screen and (max-width: 660px){
+    .cardsection--card{
+        width:90vw;
+    }
+}
