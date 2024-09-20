@@ -24,10 +24,10 @@ function RepoCard({repo, i, showGithubPages}) {
 
   return (
     <div ref={cardRef} className={`cardsection--card ${showGithubPages && (repo.has_pages ? '' : 'card__invisible')}`} key={i} style={{'--mouse-x': position.x, '--mouse-y': position.y}}>
-        <div className="cardsection--card__content card">
-            <a className="card--header" target="_blank" href={repo.html_url}>{repo.name}</a>
+        <a href={repo.html_url} target="_blank" className="cardsection--card__content card">
+            <div className="card--header" >{repo.name}</div>
             {repo.has_pages && <a className="card--anchor" target="_blank" href={`https://${repo.owner.login}.github.io/${repo.name}`}>GitHub Page</a>}
-        </div>
+        </a>
     </div>
   )
 }
