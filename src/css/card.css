@@ -1,0 +1,37 @@
+
+.card{
+    display:flex;
+    align-items: center;
+    flex-flow: column nowrap;
+    justify-content: space-around;
+}
+.card > * {
+    color:rgb(212, 212, 212);
+    text-decoration: none;
+    text-shadow: 5px 0px 10px rgba(255, 255, 255, 0.35);
+}
+.card--header{
+    font-size: 1.5rem;
+    text-decoration-style:solid;
+    color:azure;
+    overflow:hidden;
+    text-overflow:ellipsis;
+    width:fit-content;
+    max-width: 95%;
+    white-space: nowrap;
+}
+.card--anchor{
+    font-size:.9rem;
+    border: 2px solid rgb(212, 212, 212);
+    
+    padding:3%;
+    border-radius: .5rem;
+}
+.card--anchor:hover{
+    background-color: rgb(212, 212, 212);
+    color:black;
+}
+.card__invisible{
+    opacity: 0;
+    position:absolute;
+}
