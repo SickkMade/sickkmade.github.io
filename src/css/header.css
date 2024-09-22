@@ -1,0 +1,17 @@
+.header{
+    font-size:5rem;
+    color:white;
+    text-shadow: 0 0 50px rgba(255, 255, 255, 0.3);
+}
+.header:hover{
+    text-shadow: 0 0 50px rgba(255, 255, 255, 0.6);
+    cursor:pointer;
+}
+.header--wrapper{
+    text-align: center;
+    width:fit-content;
+    margin:auto;
+}
+.header--wrapper > a {
+    text-decoration: none;
+}

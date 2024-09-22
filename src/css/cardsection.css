@@ -75,11 +75,13 @@
     display:flex;
     width:25vw;
     white-space: nowrap;
-    gap:15px;
+    gap:7.5px;
     align-items: center;
-}
-.cardsection--checkbox{
-    transform:scale(1.25);
+
+    position: absolute;
+    left: 20%;
+    font-size: .75rem;
+    transform:translate(-50%);
 }
 .cardsection--github-pages > *{
     margin:0;
