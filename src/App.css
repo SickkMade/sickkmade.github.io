@@ -3,11 +3,21 @@ body{
 }
 
 .app--animation{
-  animation: fly-in-from-right 1s ease forwards;
+  animation: fly-in-from-right .5s ease forwards;
 }
 
-.app--invisible{
-  opacity:0;
+.app--scrollsection{
+  scroll-snap-type: y mandatory;
+    scroll-padding: 35%;
+    scroll-behavior: smooth;
+    scroll-snap-stop: always;
+    overflow-y:scroll;
+    height:50dvh;
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+}
+.app--scrollsection::-webkit-scrollbar{
+  display: none;
 }
 
 @keyframes fly-in-from-right {

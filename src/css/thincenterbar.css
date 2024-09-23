@@ -7,6 +7,9 @@
     flex-flow:column nowrap;
     justify-content: space-between;
 }
+.thincenterbar--wrapper > h2:first-child{
+    margin-top:20%;
+}
 .thincenterbar--wrapper > *{
     background-color:var(--bg-color);
     text-align: center;
