@@ -1,7 +1,4 @@
 .observertext--text{
     scroll-snap-align: center;
-}
-
-.observertext--text__invisible{
     opacity:0;
 }
