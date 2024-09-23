@@ -1,0 +1,25 @@
+.thincenterbar--wrapper{
+    position:relative;
+    width:100%;
+    height:400dvh;
+
+    display:flex;
+    flex-flow:column nowrap;
+    justify-content: space-between;
+}
+.thincenterbar--wrapper > *{
+    background-color:var(--bg-color);
+    text-align: center;
+    color:white;
+}
+.thincenterbar--bar{
+    position:absolute;
+    left:50%;
+    transform:translateX(-50%);
+    top:0;
+    width:2.5px;
+    height:100%;
+    background-color:white;
+    z-index: -1;
+    border-radius:1rem;
+}

@@ -39,6 +39,7 @@
     gap:10px;
     margin-top:5%;
     justify-content:center;
+    position:relative;
 }
 .cardsection--card__content{
     content:"";
@@ -79,6 +80,7 @@
     align-items: center;
 
     position: absolute;
+    top:-15px;
     left: 20%;
     font-size: .75rem;
     transform:translate(-50%);

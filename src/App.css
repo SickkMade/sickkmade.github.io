@@ -1,3 +1,23 @@
 body{
   background-color: var(--bg-color);
 }
+
+.app--animation{
+  animation: fly-in-from-right 1s ease forwards;
+}
+
+.app--invisible{
+  opacity:0;
+}
+
+@keyframes fly-in-from-right {
+  0% {
+    transform:translateX(200px);
+    opacity:0;
+  }
+  100% {
+    transform:translateX(0);
+    opacity:1;
+  }
+}
+

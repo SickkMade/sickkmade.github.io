@@ -41,11 +41,13 @@ function CardSection() {
     });
     return (
         <>
-        <div className='cardsection--github-pages'>
-            <h4>Show only github pages</h4>
-            <input className="cardsection--checkbox" type="checkbox" onClick={() => {setShowGithubPage(!showGithubPages)}} />
-        </div>
-        <section id="cardsection">{cards}</section>
+        <section id="cardsection">
+            <div className='cardsection--github-pages'>
+                <h4>Show only github pages</h4>
+                <input className="cardsection--checkbox" type="checkbox" onClick={() => {setShowGithubPage(!showGithubPages)}} />
+            </div>
+            {cards}
+        </section>
         </>
 
       )
