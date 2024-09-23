@@ -26,3 +26,7 @@
     z-index: -1;
     border-radius:1rem;
 }
+
+.thincenterbar--wrapper h2:last-child{
+    scroll-snap-align: end;
+}
