@@ -1,4 +1,5 @@
 .observertext--text{
     scroll-snap-align: center;
     opacity:0;
+    font-size: 1.25em;
 }

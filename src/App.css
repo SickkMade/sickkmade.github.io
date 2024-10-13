@@ -7,14 +7,16 @@ body{
 }
 
 .app--scrollsection{
-  scroll-snap-type: y mandatory;
+  /* scroll-snap-type: y mandatory;
     scroll-padding: 35%;
     scroll-behavior: smooth;
     scroll-snap-stop: always;
     overflow-y:scroll;
     height:50dvh;
-    -ms-overflow-style: none;  /* IE and Edge */
-    scrollbar-width: none;  /* Firefox */
+    -ms-overflow-style: none;  
+    scrollbar-width: none;   */
+    overflow-y:hidden;
+    height:20dvh;
 }
 .app--scrollsection::-webkit-scrollbar{
   display: none;
